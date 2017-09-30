@@ -2,23 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="add9f9ff-fc8c-45bc-8a55-7343590287be" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/HibernateTaskModelClient_Web_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/MainApp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/dao/ClientDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/dao/ClientDaoImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/model/AccountEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/model/ClientEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/servlet/MyServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/utils/HibernateUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/web/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/web/list.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HibernateTaskModelClient.iml" afterPath="$PROJECT_DIR$/HibernateTaskModelClient.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/.gitignore">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+            <state relative-caret-position="90">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -61,12 +47,59 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HibernateTaskModelClient.iml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HibernateTaskModelClient.iml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HibernateTaskModelClient.iml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-472">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1506775698262" expanded="true" signature="27995:28062" ph="..." />
+                <marker date="1506775698262" expanded="true" signature="27995:28080" ph="..." />
+                <marker date="1506775698262" expanded="true" signature="27995:28093" ph="..." />
+                <marker date="1506775698262" expanded="true" signature="27995:28108" ph="..." />
+                <marker date="1506775698262" expanded="true" signature="28143:30522" ph="..." />
+                <marker date="1506775698262" expanded="true" signature="28156:30507" ph="..." />
+                <marker date="1506775698262" expanded="true" signature="28210:28626" ph="..." />
+                <marker date="1506775698262" expanded="true" signature="28229:28611" ph="..." />
+                <marker date="1506775698262" expanded="true" signature="28367:28591" ph="..." />
+                <marker date="1506775698262" expanded="true" signature="28407:28557" ph="..." />
+                <marker date="1506775698262" expanded="true" signature="28428:28535" ph="..." />
+                <marker date="1506775698262" expanded="true" signature="28676:29020" ph="..." />
+                <marker date="1506775698262" expanded="true" signature="28695:29005" ph="..." />
+                <marker date="1506775698262" expanded="true" signature="28800:28985" ph="..." />
+                <marker date="1506775698262" expanded="true" signature="28840:28951" ph="..." />
+                <marker date="1506775698262" expanded="true" signature="28861:28929" ph="..." />
+                <marker date="1506775698262" expanded="true" signature="29071:29336" ph="..." />
+                <marker date="1506775698262" expanded="true" signature="29090:29321" ph="..." />
+                <marker date="1506775698262" expanded="true" signature="29123:29301" ph="..." />
+                <marker date="1506775698262" expanded="true" signature="29163:29267" ph="..." />
+                <marker date="1506775698262" expanded="true" signature="29184:29245" ph="..." />
+                <marker date="1506775698262" expanded="true" signature="29379:29683" ph="..." />
+                <marker date="1506775698262" expanded="true" signature="29398:29668" ph="..." />
+                <marker date="1506775698262" expanded="true" signature="29470:29648" ph="..." />
+                <marker date="1506775698262" expanded="true" signature="29510:29614" ph="..." />
+                <marker date="1506775698262" expanded="true" signature="29531:29592" ph="..." />
+                <marker date="1506775698262" expanded="true" signature="29734:30107" ph="..." />
+                <marker date="1506775698262" expanded="true" signature="29753:30092" ph="..." />
+                <marker date="1506775698262" expanded="true" signature="29848:30072" ph="..." />
+                <marker date="1506775698262" expanded="true" signature="29888:30038" ph="..." />
+                <marker date="1506775698262" expanded="true" signature="29909:30016" ph="..." />
+                <marker date="1506775698262" expanded="true" signature="30159:30493" ph="..." />
+                <marker date="1506775698262" expanded="true" signature="30178:30478" ph="..." />
+                <marker date="1506775698262" expanded="true" signature="30273:30458" ph="..." />
+                <marker date="1506775698262" expanded="true" signature="30313:30424" ph="..." />
+                <marker date="1506775698262" expanded="true" signature="30334:30402" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -97,6 +130,8 @@
         <option value="$PROJECT_DIR$/src/main/java/servlet/MyServlet.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/.gitignore" />
+        <option value="$PROJECT_DIR$/HibernateTaskModelClient.iml" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
       </list>
     </option>
   </component>
@@ -199,6 +234,9 @@
     <property name="project.structure.side.proportion" value="0.37169158" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/main/java" />
@@ -316,17 +354,26 @@
       <option name="presentableId" value="Default" />
       <updated>1506774893416</updated>
       <workItem from="1506774897960" duration="403000" />
-      <workItem from="1506775334930" duration="174000" />
+      <workItem from="1506775334930" duration="372000" />
     </task>
+    <task id="LOCAL-00001" summary="Add basic version with servlets work">
+      <created>1506775592228</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1506775592229</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="577000" />
+    <option name="totallyTimeSpent" value="775000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="72" width="1553" height="912" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5023256" order="7" side_tool="true" content_ui="tabs" />
@@ -360,6 +407,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add basic version with servlets work" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add basic version with servlets work" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -385,6 +436,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -392,6 +444,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -399,6 +452,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -406,6 +460,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -413,6 +468,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -420,14 +476,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1584">
           <caret line="88" column="12" lean-forward="false" selection-start-line="88" selection-start-column="12" selection-end-line="88" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="5" lean-forward="false" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -460,6 +508,59 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-472">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1506775698262" expanded="true" signature="27995:28062" ph="..." />
+            <marker date="1506775698262" expanded="true" signature="27995:28080" ph="..." />
+            <marker date="1506775698262" expanded="true" signature="27995:28093" ph="..." />
+            <marker date="1506775698262" expanded="true" signature="27995:28108" ph="..." />
+            <marker date="1506775698262" expanded="true" signature="28143:30522" ph="..." />
+            <marker date="1506775698262" expanded="true" signature="28156:30507" ph="..." />
+            <marker date="1506775698262" expanded="true" signature="28210:28626" ph="..." />
+            <marker date="1506775698262" expanded="true" signature="28229:28611" ph="..." />
+            <marker date="1506775698262" expanded="true" signature="28367:28591" ph="..." />
+            <marker date="1506775698262" expanded="true" signature="28407:28557" ph="..." />
+            <marker date="1506775698262" expanded="true" signature="28428:28535" ph="..." />
+            <marker date="1506775698262" expanded="true" signature="28676:29020" ph="..." />
+            <marker date="1506775698262" expanded="true" signature="28695:29005" ph="..." />
+            <marker date="1506775698262" expanded="true" signature="28800:28985" ph="..." />
+            <marker date="1506775698262" expanded="true" signature="28840:28951" ph="..." />
+            <marker date="1506775698262" expanded="true" signature="28861:28929" ph="..." />
+            <marker date="1506775698262" expanded="true" signature="29071:29336" ph="..." />
+            <marker date="1506775698262" expanded="true" signature="29090:29321" ph="..." />
+            <marker date="1506775698262" expanded="true" signature="29123:29301" ph="..." />
+            <marker date="1506775698262" expanded="true" signature="29163:29267" ph="..." />
+            <marker date="1506775698262" expanded="true" signature="29184:29245" ph="..." />
+            <marker date="1506775698262" expanded="true" signature="29379:29683" ph="..." />
+            <marker date="1506775698262" expanded="true" signature="29398:29668" ph="..." />
+            <marker date="1506775698262" expanded="true" signature="29470:29648" ph="..." />
+            <marker date="1506775698262" expanded="true" signature="29510:29614" ph="..." />
+            <marker date="1506775698262" expanded="true" signature="29531:29592" ph="..." />
+            <marker date="1506775698262" expanded="true" signature="29734:30107" ph="..." />
+            <marker date="1506775698262" expanded="true" signature="29753:30092" ph="..." />
+            <marker date="1506775698262" expanded="true" signature="29848:30072" ph="..." />
+            <marker date="1506775698262" expanded="true" signature="29888:30038" ph="..." />
+            <marker date="1506775698262" expanded="true" signature="29909:30016" ph="..." />
+            <marker date="1506775698262" expanded="true" signature="30159:30493" ph="..." />
+            <marker date="1506775698262" expanded="true" signature="30178:30478" ph="..." />
+            <marker date="1506775698262" expanded="true" signature="30273:30458" ph="..." />
+            <marker date="1506775698262" expanded="true" signature="30313:30424" ph="..." />
+            <marker date="1506775698262" expanded="true" signature="30334:30402" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
