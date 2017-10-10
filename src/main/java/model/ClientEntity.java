@@ -8,27 +8,40 @@ import java.util.List;
 @Table(name = "clients")
 public class ClientEntity {
 
-    @Id
-    @GeneratedValue(strategy=GenerationType.IDENTITY)
-    @Column(name = "client_id")
-    private int id;
-
     @Column(name = "client_name")
     public String name;
-
     @Column(name = "client_password")
     public String password;
-
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "client_id")
+    private int id;
     @OneToMany(mappedBy = "client", targetEntity = AccountEntity.class, cascade = {CascadeType.ALL}, orphanRemoval = true)
     private List<AccountEntity> accountEntities = new ArrayList<>();
 
-    public void addAccount(AccountEntity accountEntity){
+    public void addAccount(AccountEntity accountEntity) {
         accountEntity.setClient(this);
         accountEntities.add(accountEntity);
     }
 
-    public List<AccountEntity> getAccountEntities() {
+    public List<AccountEntity> getAccounts() {
         return accountEntities;
+    }
+
+    public void removeAccount(AccountEntity accountEntity) {
+        accountEntity.setClient(this);
+        accountEntities.remove(accountEntity);
+    }
+
+    public AccountEntity findAccount(int id) {
+        AccountEntity accountEntity = new AccountEntity();
+        List<AccountEntity> accounts = getAccounts();
+        for (int i = 0; i < getAccounts().size(); i++) {
+            if (id == accounts.get(i).getId()) {
+                accountEntity = accounts.get(i);
+            }
+        }
+        return accountEntity;
     }
 
     public void setAccountEntities(List<AccountEntity> accountEntities) {

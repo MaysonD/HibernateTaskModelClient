@@ -10,7 +10,9 @@ public interface ClientDao {
 
     void saveClient(ClientEntity clientEntity);
 
-    void removeClient(ClientEntity clientEntity);
+    ClientEntity findById(int id);
+
+    void removeClient(int id);
 
     void updateClient(ClientEntity clientEntity);
 }

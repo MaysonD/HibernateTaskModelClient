@@ -23,25 +23,30 @@ public class ClientDaoImpl implements ClientDao {
         entityManager.persist(clientEntity);
         entityManager.getTransaction().commit();
         entityManager.close();
-        System.out.println("Saved");
     }
 
-    public void removeClient(ClientEntity clientEntity) {
+    public ClientEntity findById(int id) {
         EntityManager entityManager = HibernateUtil.getEntityManagerFactory().createEntityManager();
         entityManager.getTransaction().begin();
-        ClientEntity entityForRemove = entityManager.find(ClientEntity.class, clientEntity.getId());
+        ClientEntity entity = entityManager.find(ClientEntity.class, id);
+        entityManager.close();
+        return entity;
+    }
+
+    public void removeClient(int id) {
+        EntityManager entityManager = HibernateUtil.getEntityManagerFactory().createEntityManager();
+        entityManager.getTransaction().begin();
+        ClientEntity entityForRemove = entityManager.find(ClientEntity.class, id);
         entityManager.remove(entityForRemove);
         entityManager.getTransaction().commit();
         entityManager.close();
     }
 
-    public void updateClient(ClientEntity clientEntity){
+    public void updateClient(ClientEntity clientEntity) {
         EntityManager entityManager = HibernateUtil.getEntityManagerFactory().createEntityManager();
         entityManager.getTransaction().begin();
         entityManager.merge(clientEntity);
         entityManager.getTransaction().commit();
         entityManager.close();
-        System.out.println("Updated");
-
     }
 }

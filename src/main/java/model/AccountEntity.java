@@ -8,7 +8,7 @@ public class AccountEntity {
 
     @Id
     @Column(name = "account_id")
-    @GeneratedValue(strategy=GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     @Column(name = "account_name")
     private String name;
